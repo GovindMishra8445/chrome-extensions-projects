@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+    width: 300px;
+}
+
+:root {
+    --bg-color: white;
+    --text-color: black;
+}
+
+.dark {
+    --bg-color: #121212;
+    --text-color: white;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 95%;
+}
+
+.link-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.link-buttons button {
+    margin-left: 5px;
+}
