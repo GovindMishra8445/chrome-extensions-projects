@@ -1,28 +1,21 @@
-📂 Personal Link Manager Pro - Chrome Extension
+# 📂 Personal Link Manager Pro - Chrome Extension
 
-🚀 A lightweight and powerful Chrome Extension to save, manage, and instantly copy your personal links like GitHub, LinkedIn, Portfolio, Resume, and more.
-Supports Light/Dark Mode and ensures data persistence using localStorage.
+> 🚀 **A lightweight and powerful Chrome Extension** to save, manage, and instantly copy your personal links like **GitHub, LinkedIn, Portfolio, Resume, and more.**  
+> Supports **Light/Dark Mode** and ensures data persistence using **localStorage.**
 
-📸 Demo
-(Add a GIF or Screenshot here after building the extension)
+## ✨ Key Features
+- ✅ **One-Click Copy:** Quickly copy your most-used links with a single click.
+- ✅ **Add Links Instantly:** Easily add new personal or frequently used links.
+- ✅ **Delete Unwanted Links:** Remove links you no longer need, with instant updates.
+- ✅ **Persistent Storage:** All links are saved locally and persist even after closing the browser.
+- ✅ **Light/Dark Mode:** Switch between light and dark themes for a comfortable experience.
+- ✅ **Minimal & Fast:** Clean UI with no external dependencies for maximum performance.
 
-✨ Key Features
-✅ One-Click Copy: Quickly copy your most-used links with a single click.
+---
 
-✅ Add Links Instantly: Easily add new personal or frequently used links.
+## 📂 Project Folder Structure
 
-✅ Delete Unwanted Links: Remove links you no longer need, with instant updates.
-
-✅ Persistent Storage: All links are saved locally and persist even after closing the browser.
-
-✅ Light/Dark Mode: Switch between light and dark themes for a comfortable experience.
-
-✅ Minimal & Fast: Clean UI with no external dependencies for maximum performance.
-
-📂 Project Folder Structure
-plaintext
-Copy
-Edit
+```plaintext
 personal-link-manager-pro/
 │
 ├── manifest.json
@@ -33,6 +26,8 @@ personal-link-manager-pro/
     ├── icon16.png
     ├── icon48.png
     └── icon128.png
+
+
 🔧 How to Install the Extension
 Download or clone this repository.
 
@@ -46,14 +41,11 @@ The extension icon will now appear in your Chrome toolbar — click it and start
 
 🛠️ Tech Stack
 HTML
-
 CSS
-
 Vanilla JavaScript
-
 Chrome Extension API
-
 Local Storage
+
 
 🌱 Future Improvements
 🔹 Add link categories/tags (Social, Portfolio, Projects, etc.).
@@ -64,6 +56,7 @@ Local Storage
 
 🔹 Optional User Authentication for enhanced security.
 
+
 💡 Example Use Cases
 Save your GitHub, LinkedIn, Portfolio, and Resume links in one place.
 
@@ -72,6 +65,7 @@ Quick access to links while applying for jobs.
 Store personal social media links for easy sharing.
 
 Copy frequently used links instantly while working on projects.
+
 
 📩 Connect with Me
 🔗 GitHub

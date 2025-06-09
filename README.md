@@ -12,7 +12,8 @@ Each folder contains a separate Chrome Extension with its own setup and codebase
 ```plaintext
 chrome-extensions-project/
 │
-├── Random-jokes/           # AI
+├── Random-jokes/           # Random Jokes create
+├── Personal-link-manager/  # A lightweight and powerful Chrome Extension
 └── README.md
 
 
