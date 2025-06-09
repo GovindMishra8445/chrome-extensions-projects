@@ -20,6 +20,34 @@ h2 {
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(20px);
+    z-index: 1000;
+}
+
+.toast.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+/* Toast for Light Mode */
+body.dark-mode .toast {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
 
 p#joke {
     font-size: 16px;

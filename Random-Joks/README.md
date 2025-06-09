@@ -42,5 +42,10 @@ random-jokes-extension/
 ✅ Copy to Clipboard
 ✅ Mobile Responsive
 ✅ Modern UI with Hover Animations
-✅ Dark Mode / Light Mode Toggle
+✅ Dark / Light Mode with Memory
+✅ Toast Notification
+
+
+
+ 
 
