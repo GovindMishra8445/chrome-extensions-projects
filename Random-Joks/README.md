@@ -1,57 +1,46 @@
-# Random Jokes Chrome Extension 😂
+# Random Jokes Chrome Extension
 
-A simple and fun Chrome Extension that fetches random jokes from an API to make your day better! Built by **Govind Mishra**.
+A simple, modern, and responsive Chrome Extension that fetches random jokes from an API.  
+It includes loading animation, copy-to-clipboard functionality, and Dark/Light mode toggle.
 
----
+## 🚀 Features
+- ✅ Fetch random jokes from API
+- ✅ Loading animation while fetching
+- ✅ Copy joke to clipboard
+- ✅ Beautiful UI with animations
+- ✅ Mobile responsive design
+- ✅ Dark Mode / Light Mode toggle
 
-## 📚 Features
-- Fetches random jokes using the [Official Joke API](https://official-joke-api.appspot.com/random_joke)
-- Clean, responsive popup UI
-- Easy-to-use interface with just one click to get a joke
+## 🌐 Live Demo
+_Not applicable for Chrome Extensions. You can load it locally._
 
----
+## 📦 How to Install
+1. Go to `chrome://extensions/` in Chrome browser.
+2. Enable **Developer Mode**.
+3. Click **Load Unpacked**.
+4. Select the extension folder.
 
-## 🚀 How to Install
-
-1. Download or clone this repository.
-2. Go to `chrome://extensions/` in your Chrome browser.
-3. Enable **Developer Mode** (top-right corner).
-4. Click **Load Unpacked** and select the project folder.
-5. You will see the extension icon in your toolbar.
-6. Click the icon and enjoy random jokes! 🎉
-
----
-
-## 🗂️ Project Structure
-
-```plaintext
+## 📁 Project Structure
 random-jokes-extension/
 │
-├── manifest.json      # Chrome Extension configuration
-├── popup.html         # Extension's main popup UI
-├── popup.css          # Styling for the popup
-├── popup.js           # Fetch and display joke logic
-└── icon-16.png        # Extension icon
+├── manifest.json
+├── popup.html
+├── popup.css
+├── popup.js
+└── icon-16.png
 
 
+## 🔗 API Used
+[Joke API](https://official-joke-api.appspot.com/random_joke)
 
-🛠️ Technologies Used
-HTML
+## ✨ Author
+**Govind Mishra**
 
-CSS
 
-JavaScript
+✨ Features Added:
+✅ Loading Animation
+✅ Copy to Clipboard
+✅ Mobile Responsive
+✅ Modern UI with Hover Animations
+✅ Dark Mode / Light Mode Toggle
 
-Chrome Extensions (Manifest V3)
-
-📦 API Used
-Official Joke API
-
-💬 Notes
-This README file was created on request by Govind Mishra. 😊
-If you want to improve or contribute, feel free to fork and submit a pull request!
-
-📬 Connect with Me
-GitHub: Govind Mishra
-
-LinkedIn: Your LinkedIn Profile
