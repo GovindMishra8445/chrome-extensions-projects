@@ -2,9 +2,11 @@ const jokeElement = document.getElementById('joke');
 const loadingElement = document.getElementById('loading');
 const copyButton = document.getElementById('copyJoke');
 const getJokeButton = document.getElementById('getJoke');
+const toggleButton = document.getElementById('toggleMode');
 
 getJokeButton.addEventListener('click', getJoke);
 copyButton.addEventListener('click', copyJoke);
+toggleButton.addEventListener('click', toggleMode);
 
 function getJoke() {
     loadingElement.classList.remove('hidden');
@@ -32,4 +34,8 @@ function copyJoke() {
     }).catch(err => {
         console.error('Error copying text: ', err);
     });
+}
+
+function toggleMode() {
+    document.body.classList.toggle('dark-mode');
 }

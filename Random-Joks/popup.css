@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(135deg, #f8e4e4, #d6d6d6);
+    background: linear-gradient(135deg, #f0f0f0, #d6d6d6);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
@@ -7,16 +7,16 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 350px;
-    min-width: 400px;
-    border-radius: 15px;
+    min-height: 250px;
+    min-width: 300px;
     box-sizing: border-box;
+    transition: background 0.5s ease, color 0.5s ease;
 }
 
 h2 {
     color: #333;
     font-size: 24px;
-    margin-top: 5px;
+    margin-bottom: 15px;
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
@@ -31,7 +31,7 @@ p#joke {
     border-radius: 8px;
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 p#joke:hover {
@@ -83,6 +83,25 @@ button:active {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: #f1f1f1;
+}
+
+body.dark-mode h2 {
+    color: #f1f1f1;
+}
+
+body.dark-mode p#joke {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+body.dark-mode p#joke:hover {
+    background-color: #444;
 }
 
 /* Responsive Design */
