@@ -1,0 +1,16 @@
+{
+    "name": "Random Jokes",
+    "version": "1.0.0",
+    "description": "A simple app to fetch random jokes from an API.",
+    "author": "Govind Mishra",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon-16.png"
+        }
+    },
+    "icons": {
+        "16": "icon-16.png"
+    }
+}
